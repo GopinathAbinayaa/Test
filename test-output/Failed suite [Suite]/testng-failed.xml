@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <parameter name="firstName" value="Gopinath"/>
+    <parameter name="lastName" value="Muthukrishnan"/>
+    <parameter name="password" value="gopinath@1993"/>
+    <parameter name="address" value="Erode,Komarapalayam"/>
+    <parameter name="hotels" value="Hotel Sunshine"/>
+    <parameter name="adults" value="2 - Two"/>
+    <parameter name="creditNum" value="1234567890123456"/>
+    <parameter name="location" value="London"/>
+    <parameter name="noOfRoom" value="2 - Two"/>
+    <parameter name="childs" value="2 - Two"/>
+    <parameter name="roomType" value="Double"/>
+    <parameter name="username" value="gopinathabinayaa"/>
+    <classes>
+      <class name="org.reuse.TestNg">
+        <methods>
+          <include name="page3" invocation-numbers="0"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- org.reuse.TestNg -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
